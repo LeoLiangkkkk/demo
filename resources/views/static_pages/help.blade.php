@@ -1,5 +1,5 @@
 @extends('layouts.default')
 @section('title', '帮助')
 @section('content')
-    <h1>帮助页</h1>
+    <li><a href="{{ route('help') }}">帮助</a></li>
 @stop
